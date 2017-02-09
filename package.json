@@ -1,0 +1,28 @@
+{
+  "name": "gitbook-plugin-mytest-diqian",
+  "version": "0.0.1",
+  "description": "this is my first gitbook plugin",
+  "main": "index.js",
+  "engines": {
+        "gitbook": ">=0.4.6"
+  },
+  "gitbook": {
+        "properties": {
+            "myConfigKey": {
+                "type": "string",
+                "default": "it's the default value",
+                "description": "It defines my awesome config!"
+            }
+        }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitbookio",
+    "gitbook",
+    "plugin"
+  ],
+  "author": "diqian",
+  "license": "MIT"
+}
